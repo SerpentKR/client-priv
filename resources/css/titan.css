@@ -1,0 +1,410 @@
+/*CSS FOR TITAN BY YUVAN*/
+/*FUCK YOU IF YOU TAKE THESE CODE*/
+/*PRIVATE CSS*/
+
+@import url(https://envyxyz.github.io/removal/removal.css);
+
+#endAMerger, #aMerger,
+.settingsBtn[onClick="openOneTrust()"] {
+    display: none !important;
+}
+
+#mainLogo {
+    content: url(https://cdn.discordapp.com/attachments/1012208519627415716/1048815484897853530/Attack-On-Titan-Word-Logo-Transparent-PNG.png)
+}
+
+#mainLogoFace {
+    display: none;
+}
+
+#faceItIconM,#rankedSoonTm,.headerBarRight,#infoHider,#newsHolder,#aHider {
+    display:none !important;
+}
+
+#subLogoButtons {
+    display:inline-flex;
+    flex-direction:column;
+    height:100%;
+    width:250px;
+    transform:none;
+    left:unset;
+    bottom:unset;
+    right:0;
+    top:0;
+    background-color:rgba(0,0,0,0.5);
+}
+
+#subLogoButtons .button {
+    height:-webkit-fill-available;
+    width:-webkit-fill-available;
+    border:none !important;
+    background-color:transparent;
+    padding:0 !important;
+    margin:0;
+    transform:none;
+    border-radius:0;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px !important;
+    transition:font-size 0.5s;
+}
+
+#subLogoButtons .button:hover {
+    font-size:25px !important;
+    transition:font-size 0.5s;
+}
+
+#menuClassContainer {
+    transform:none;
+    top:unset;
+    left:unset;
+    bottom:20px;
+    right:250px;
+}
+
+.button:hover { border-radius: 0 50px; transition: ease 0.01s }
+.button { border-radius: 50px 0; transition: ease 0.1s }
+
+#chatInput::placeholder{
+    color: transparent;
+}
+
+#chatInputHolder::before{
+    content: "AOT IS DOPE";
+    position: absolute;
+    color: #fff;
+    bottom: 17px;
+    left: 70px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#chatHolder:focus-within #chatInputHolder::before{
+    opacity: 0;
+}
+
+#rankedSoonTm {
+    visibility:hidden;
+}
+
+#rankedSoonTm:after {
+    visibility:visible;
+    content:'FaceIt';
+}
+
+#teamScores {
+    position:fixed;
+    top:35px;
+    left:50%;
+    transform:translateX(-50%);
+    width:150px;
+    height:25px;
+    padding:0px;
+    margin:0;
+    border-radius:0;
+    background-color:transparent;
+}
+
+.tScore {
+    display:inline-block;
+}
+
+#tScoreV1 {
+    position:fixed;
+    left:-25%;
+    top:4px;
+}
+
+#tScoreV2 {
+    position:fixed;
+    left:25%;
+    top:4px;
+}
+
+.tScoreT {
+    width:100%;
+    text-align:center;
+    font-size:15px;
+    color:#fff;
+    z-index:2;
+}
+
+.tScoreF {
+    left:50%;
+    width:75px;
+    height:25px;
+    margin-right:0;
+    padding:0;
+    background-color:#eb5656;
+    color:transparent;
+    opacity:50%;
+    z-index:1;
+}
+
+.tScoreF.you {
+    background-color:#5699eb;
+    color:transparent;
+    opacity:50%;
+    z-index:1;
+}
+
+.tScoreC {
+    left:50%;
+    width:75px;
+    height:25px;
+    margin-right:0;
+    background-color:var(--accent);
+    opacity:50%;
+    z-index:1;
+}
+
+.tScoreC.you {
+    background-color:#fff;
+    opacity:50%;
+    z-index:1;
+}
+
+#gameMessage {
+    position:relative;
+    top:80px;
+}
+
+.material-icons-outlined {
+color: white !important
+}
+
+.topRightCounters img,
+.topRightCounters .material-icons {
+    display: none!important;
+}
+
+.topRightCounters {
+    width: auto !important;
+    display: inline-flex;
+    flex-direction: column;
+    position: fixed;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.countIcon {
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+.topRightCounters div::before {
+    display: block;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    left: 16px
+}
+
+#killCount::before {
+    content: '☠';
+}
+
+#deathCount::before {
+    content: '💀';
+}
+
+#streakCount::before {
+    content: '💣';
+}
+
+#livesCount::before {
+    content: '❤';
+}
+
+#scoreCount::before {
+    content: '🔢';
+}
+
+#ammoMax,#ammoIcon,#healthBar,#challIcon,#maxHP,#hudClassIcon {
+    display:none;
+}
+
+#ammoDisplay {
+    transform:none;
+    border-radius:0;
+    margin:0;
+    padding:0;
+    background-color:transparent;
+    background-image:linear-gradient(to right,var(--accent),var(--accent));
+    width:50px;
+    height:50px;
+    position:fixed;
+    left:calc(50% - 30px);
+    top:calc(50% + 30px);
+}
+
+#ammoVal {
+    position:fixed;
+    right:30%;
+    bottom:25%;
+    font-size:60px;
+    color:#ffffff;
+}
+
+#healthValueHolder{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+    border-radius:0;
+    position:fixed;
+    left:30%;
+    bottom:25%;
+}
+
+#healthValue {
+    color:#ffffff;
+    font-size:60px;
+}
+
+.classCard {
+    background-color: transparent;
+    color: var(--accent-color) !important;
+    text-shadow: none;
+}
+
+.classWeap {
+    text-shadow: none !important;
+    transition-duration: 0.3s;
+}
+
+.classLvl {
+    color: var(--accent-color) !important;
+    transition-duration: 0.3s;
+}
+
+.classHP {
+    color: var(--accent-color) !important;
+    transition-duration: 0.3s;
+}
+
+.classHP span {
+    color: var(--accent-color) !important;
+}
+
+.classCard:hover .classHP {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.classCard:hover .classLvl {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.classCard:hover .classWeap {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.classImgC {
+    border-radius: 10px;
+}
+
+.classXPBar {
+    background-color: var(--menu-bg-color-secondary);
+    border-radius: 10px;
+}
+
+.clsXPBarC {
+    margin: 0;
+    background-color: var(--accent-color);
+    height: 26px;
+    border-radius: 10px;
+}
+
+.classCard:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.classCard img {
+    opacity: 0.7;
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
+
+#policeButton {
+    margin: 0;
+    padding: 0;
+    height: 90px !important;
+    width: 90px !important;
+    color: #fff;
+    display: block;
+    position: fixed;
+    bottom: 24px;
+    right: 755px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    background-image: url(https://cdn.discordapp.com/attachments/857344358214926337/922903310174920794/MARKE1.png);
+    background-size: cover;
+}
+
+#policeButton img {
+    margin: 0 !important;
+    height: 30px !important;
+    opacity: 0;
+}
+
+#initLoader {
+	background-image: url(https://cdn.discordapp.com/attachments/907653479399555094/932554587070681148/13036.gif);
+		background-repeat: no-repeat;
+	background-size: cover;
+	image-rendering: pixelated;
+}
+
+#aHolder, #aMerger { display: none!important}
+
+@font-face {
+    src        : url(https://fonts.gstatic.com/s/abrilfatface/v12/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2);
+    font-family: gamefont;
+}
+
+#initLoader div[style*="absolute"]:first-child,
+#loadGamNm{
+    display: none
+}
+
+#reloadMsg {
+	bottom: 150px;
+	text-shadow: var(--outline)
+}
+
+#ammoDisplay {
+    transform:none;
+    padding:0;
+    margin:0;
+    position:fixed;
+    left:calc(50% - 30px);
+    top:calc(50% + 30px);
+    height:4px;
+    width:50px;
+    background-color:transparent;
+    background-image:linear-gradient(to right,#fff,#fff);
+}
+
+#ammoVal,#ammoMax,#ammoIcon {
+    position:fixed;
+    bottom:30px;
+}
+
+#ammoIcon {
+    right:20px;
+}
+
+#ammoMax {
+    right:110px;
+}
+
+#ammoVal {
+    right:190px;
+}

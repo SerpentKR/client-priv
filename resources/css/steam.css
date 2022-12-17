@@ -1,0 +1,281 @@
+/* BUG FIXING */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.sliderM {
+	transform: translateY(-8px) !important;
+}
+
+/* STEAM REQUIREMENTS */
+#aHolder {
+	z-index: -1000 !important;
+}
+
+#aContainer {
+	opacity: 0 !important;
+	pointer-events: none !important;
+}
+
+#endAHolderL, #endAHolderR {
+	opacity: 0 !important;
+	display: none !important;
+}
+
+.krSocial {
+	display: none !important;
+}
+
+#editorBtnM {
+	display: none !important;
+}
+
+.adsbygoogle.adsbygoogle-noablate {
+	display: none !important;
+}
+
+/* STYLING */
+* {
+	cursor: url('cursor.svg'), auto !important;
+}
+
+#subLogoButtons {
+	bottom: 8px !important;
+}
+
+#menuItemContainer {
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5)
+}
+
+
+.button {
+	border: 3px solid;
+}
+
+.button, .button.small {
+	text-shadow: none !important;
+}
+
+.button:hover {
+	box-shadow: none !important;
+}
+
+#faceItIconM {
+	content:url("../imgs/faceit.png")
+}
+
+.buttonO {
+	color: #ff6a0b;
+	background-color: #333!important;
+	box-shadow: none !important
+}
+
+.buttonP {
+	color: #b447ff;
+	background-color: #333!important;
+	box-shadow: none !important
+}
+
+.buttonR {
+	color: #ff4747;
+	background-color: #333!important;
+	box-shadow: none !important
+}
+
+.buttonG {
+	color: #31caec;
+	background-color: #333!important;
+	box-shadow: none !important
+}
+
+.buttonPI {
+	color: #fa50ae;
+	background-color: #333!important;
+	box-shadow: none !important
+}
+
+.buttonB {
+	background-color: #333!important;
+	box-shadow: none !important
+}
+
+.button.lgn {
+	color: #ff6a0b;
+	padding-top: 6px !important;
+	padding-bottom: 10px !important;
+}
+
+.button.lgn span {
+	color: #ff6a0b !important;
+}
+
+.menuItem {
+	background-color: #222 !important;
+}
+
+.headerBar {
+	background-color: #222 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	z-index: 20;
+}
+
+#mLevelCont {
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#termsInfo {
+	background-color: #222 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#customizeButton span {
+	color: #31caec !important;
+}
+
+#streamContainer {
+	background-color: #222 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#youNewDiv {
+	background-color: #222 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#newsBody::-webkit-scrollbar-thumb {
+	border-radius: 0px !important;
+	background-color: var(--yellow) !important;
+}
+
+#newsBody::-webkit-scrollbar-track {
+	border-radius: 0px !important;
+	background-color: #444 !important;
+}
+
+.endCard {
+	background-color: #333!important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.headerBarLeft {
+	z-index: 100;
+}
+
+.teamTotals {
+	background-color: #333!important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.leftUIB {
+	border: 3px solid #ca56eb !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#ammoDisplay {
+	border: 3px solid #fbd543 !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#leaderDisplay {
+	border-radius: 5px !important;
+	border: 3px solid #55555580 !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.newLeaderContainer {
+	background-color: #333!important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.countIcon {
+	border: 3px solid #55555580 !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#hudClassIcon {
+	border: 3px solid #ffffff60 !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#healthValueHolder {
+	border: 3px solid #55555580 !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hpBSeg {
+	box-shadow: none !important;
+	border-radius: 0px !important;
+}
+
+.healthBarSeg:last-child .hpBSeg[style*="width:100%"] {
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+
+.healthBarSeg:first-child .hpBSeg {
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+}
+
+.healthBarSeg {
+	background-color: transparent !important;
+	margin-right: 0px !important;
+	border-right: 4px solid #555;
+	border-radius: 0px !important;
+}
+
+.healthBarSeg:last-child {
+	border-right: none !important;
+}
+
+#healthBar {
+	height: 44px !important;
+	margin-bottom: 2px !important;
+	border: 3px solid #555 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5) !important;
+	border-radius: 6px;
+}
+
+#chatInputHolder {
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	border: none;
+	padding-top: 8px;
+}
+
+#chatSwitchHolder {
+	transform: translateY(-3px);
+}
+
+#chatList {
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#chatInput {
+	padding: 6px 10px !important;
+}
+
+.chatItem {
+	background-color: transparent !important;
+}
+
+.kfItem {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	border-radius: 4px;
+	border: 3px solid #55555580 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#killCard {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	border-radius: 4px;
+	border: 3px solid #55555580 !important;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}

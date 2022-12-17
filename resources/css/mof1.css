@@ -1,0 +1,19 @@
+@import url(https://mof1.github.io/cdn/MOF1_CSS_default/configs.css);
+@import url(https://mof1.github.io/krunker_css/css/main_custom.css);
+
+/*Overrides*/
+:root{
+--blur-radius1: 20px;
+--blur-radius2: 5px;
+--sidebarIconColorOnHover: #ffffff;
+--sidebarIconBgOnHover: #ffffff12;
+--accentColor: #39ffd4;
+--accentColorST: #39ffd469;
+--gradientColor4: #84a1ff;
+--gradientColor3: #39ffd4;
+--purple: #987bff;
+--purple-dark: #592bff;
+--orange: #ff9ea2;
+--orange-dark: #ff3943;
+--yellow: #ffeb3b;
+--yellow-dark: #9b8b00;}

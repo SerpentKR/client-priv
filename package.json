@@ -4,12 +4,22 @@
   "version": "2.0.1",
   "description": "Serpent Client",
   "main": "client.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/SerpentKR/client-download.git"
+  },
   "scripts": {
     "start": "electron .",
     "compile": "electron ./compiler.js",
     "postinstall": "electron-builder install-app-deps",
-		"build": "electron-builder --mac --windows --linux",
+		"build": "electron-builder --mac --windows --linux --publish never",
 		"release": "electron-builder --mac --windows --linux --publish always"
+  },
+  "publish": {
+    "provider": "github",
+    "repo": "client-download",
+    "owner": "SerpentKR",
+    "releaseType": "release"
   },
   "author": "forgoted",
   "devDependencies": {
@@ -39,16 +49,17 @@
       "output": "build"
     },
     "mac": {
-      "target": "dmg",
-      "icon": "ico.icns"
+      "icon": "ico.icns",
+      "publish": ["github"]
     },
     "win": {
-      "target": "portable",
-      "icon": "ico.ico"
+      "icon": "ico.ico",
+      "publish": ["github"]
     },
     "linux": {
       "target": "AppImage",
-      "icon": "ico.png"
+      "icon": "ico.png",
+      "publish": ["github"]
     },
     "portable": {
       "unicode": false,

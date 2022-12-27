@@ -48,6 +48,9 @@
     "directories": {
       "output": "build"
     },
+    "files": [
+      "!dist/"
+    ],
     "mac": {
       "icon": "ico.icns",
       "publish": ["github"]

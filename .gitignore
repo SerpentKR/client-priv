@@ -104,3 +104,4 @@ dist
 .tern-port
 build/
 electron-builder.yml
+.DS_Store

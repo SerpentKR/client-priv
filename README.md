@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the **Serpent Client** repository! Serpent Client is a custom client for [Krunker.io](https://krunker.io/), designed to enhance performance and provide visual modifications for an improved gaming experience. Whether you're looking for better frame rates, smoother gameplay, or visually appealing customizations, Serpent Client aims to deliver all that and more.
+Welcome to the **Serpent Client** repository! Serpent Client is a **DISCONTINUED** custom client for [Krunker.io](https://krunker.io/), designed to enhance performance and provide visual modifications for an improved gaming experience. Whether you're looking for better frame rates, smoother gameplay, or visually appealing customizations, Serpent Client aims to deliver all that and more.
 
 ## Features
 
